@@ -15,7 +15,7 @@
 #
 
 # Inherit some common Pixel-Experience stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/realme/RMX3191/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_RMX3191
+PRODUCT_NAME := cipher_RMX3191
 PRODUCT_DEVICE := RMX3191
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme C25
