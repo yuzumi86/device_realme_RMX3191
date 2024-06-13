@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_RMX3191.mk
+    $(LOCAL_DIR)/cipher_RMX3191.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_RMX3191-eng \
-    derp_RMX3191-userdebug \
-    derp_RMX3191-user
+    cipher_RMX3191-eng \
+    cipher_RMX3191-userdebug \
+    cipher_RMX3191-user
