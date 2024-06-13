@@ -20,7 +20,6 @@ $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 
 # Inherit from device makefile
@@ -39,8 +38,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Cipher additions
-# CIPHER_MAINTAINER := ismasrull
-# CIPHER_GAPPS := true
+CIPHER_MAINTAINER := ismasrull
+CIPHER_GAPPS := true
 
 # Build info
 BUILD_FINGERPRINT := "realme/RMX3191T2/RMX3191:11/RP1A.200720.011/1647614838132:user/release-keys"
