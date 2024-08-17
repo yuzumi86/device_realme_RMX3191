@@ -1,0 +1,4 @@
+service vendor.vibrator-RMX3191 /vendor/bin/hw/android.hardware.vibrator-service.RMX3191
+    class hal
+    user system
+    group system
