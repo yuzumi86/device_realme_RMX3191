@@ -18,7 +18,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 PRODUCT_NAME := arrow_RMX3191
 PRODUCT_DEVICE := RMX3191
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme Monet
+PRODUCT_MODEL := realme C25
 PRODUCT_MANUFACTURER := realme
 
 TARGET_BOOT_ANIMATION_RES := 720
@@ -32,7 +32,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=RMX3191 \
     PRIVATE_BUILD_DESC="sys_oplus_mssi_64_cn-user-11-RP1A.200720.011-1647614838132-release-keys"
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
