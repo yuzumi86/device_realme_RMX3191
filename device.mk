@@ -15,8 +15,8 @@ $(call inherit-product, vendor/realme/even/even-vendor.mk)
 # IMS
 $(call inherit-product, vendor/realme/even-ims/even-ims.mk)
 
-# Parts
-$(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -188,10 +188,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.RMX3191
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-RMX3191
 
 # Media
 PRODUCT_COPY_FILES += \
