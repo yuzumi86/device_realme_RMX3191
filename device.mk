@@ -343,16 +343,16 @@ PRODUCT_PACKAGES += \
 
 # Runtime Resource Overlays 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayRMX2020 \
-    DialerOverlayRMX2020 \
-    DocumentsUIOverlayRMX2020 \
-    FrameworksResOverlayRMX2020 \
-    SettingsOverlayRMX2020 \
-    SettingsProviderOverlayRMX2020 \
-    SystemUIOverlayRMX2020 \
-    TelephonyOverlayRMX2020 \
-    TetheringResOverlayRMX2020 \
-    WifiResOverlayRMX2020
+    CarrierConfigOverlayRMX3191 \
+    DialerOverlayRMX3191 \
+    DocumentsUIOverlayRMX3191 \
+    FrameworksResOverlayRMX3191 \
+    SettingsOverlayRMX3191 \
+    SettingsProviderOverlayRMX3191 \
+    SystemUIOverlayRMX3191 \
+    TelephonyOverlayRMX3191 \
+    TetheringResOverlayRMX3191 \
+    WifiResOverlayRMX3191
 
 # Secure element
 PRODUCT_PACKAGES += \
