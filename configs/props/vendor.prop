@@ -141,7 +141,7 @@ ro.vendor.pq.mtk_aal_support=0
 ro.vendor.pq.mtk_dre30_support=0
 ro.vendor.pq.mtk_disp_game_pq_support=0
 ro.vendor.mtk_hdr_video_support=0
-ro.vendor.pref_scale_enable_cfg=0
+#ro.vendor.pref_scale_enable_cfg=0
 vendor.mtk.vdec.waitkeyframeforplay=0
 #media.c2.dmabuf.padding=3072
 
