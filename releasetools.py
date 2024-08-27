@@ -56,14 +56,14 @@ def OTA_InstallEnd(info, incremental):
       'tee': ['tee1', 'tee2']
       }
 
-  pl = 'preloader_emmc'
+#  pl = 'preloader_emmc'
   pl_part = ['mmcblk0boot0', 'mmcblk0boot1']
 
   fw_cmd = 'ui_print("Patching radio images unconditionally...");\n'
 
-  AddImageOnly(info, "{}.img".format(pl), incremental, True)
-  for part in pl_part:
-      fw_cmd += 'package_extract_file("{}.img", "/dev/block/{}");\n'.format(pl, part)
+#  AddImageOnly(info, "{}.img".format(pl), incremental, True)
+#  for part in pl_part:
+#      fw_cmd += 'package_extract_file("{}.img", "/dev/block/{}");\n'.format(pl, part)
 
   for img in img_map.keys():
     AddImageOnly(info, '{}.img'.format(img), incremental, True)
