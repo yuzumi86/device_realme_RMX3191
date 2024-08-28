@@ -309,7 +309,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
 
 # Properties
--include $(DEVICE_PATH)/configs/props/vendor_prop.mk
+-include $(DEVICE_PATH)/configs/props/system.prop
+-include $(DEVICE_PATH)/configs/props/product.prop
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Protobuf
