@@ -9,6 +9,9 @@ DEVICE_PATH := device/realme/RMX3191
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/even/even-vendor.mk)
 
@@ -303,7 +306,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
 
 # Properties
--include $(DEVICE_PATH)/configs/props/vendor_prop.mk
+-include $(DEVICE_PATH)/configs/props/vendor_logging_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Protobuf
